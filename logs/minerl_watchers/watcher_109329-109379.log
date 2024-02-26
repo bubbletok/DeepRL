@@ -1,0 +1,8 @@
+2024-02-02 00:47:59 Bubbletok process_watcher[109438] INFO Process watcher started between parent 109329 and child 109379 
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO Parent is not running, hence we need terminate the child.
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO About to reap process tree of 109379:launchClient.sh:/usr/bin/bash i sleeping, owner 402, printing process tree status in termination order:
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO 	-109383:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 109379
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO 	-109379:launchClient.sh:/usr/bin/bash i sleeping, owner 402
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO Trying to SIGTERM 109383:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 109379
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO Process psutil.Process(pid=109383, name='java', status='terminated', started='00:47:57') terminated with exit code None
+2024-02-02 00:48:15 Bubbletok process_watcher[109438] INFO Process psutil.Process(pid=109379, name='launchClient.sh', status='terminated', started='00:47:57') does not exist or is zombie.

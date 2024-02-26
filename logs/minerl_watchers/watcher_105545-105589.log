@@ -1,0 +1,2 @@
+2024-02-02 00:35:55 Bubbletok process_watcher[105648] INFO Process watcher started between parent 105545 and child 105589 
+2024-02-02 00:36:41 Bubbletok process_watcher[105648] INFO Child is not running anymore, launcher can terminate.
